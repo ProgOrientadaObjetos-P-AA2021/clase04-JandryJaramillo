@@ -11,9 +11,7 @@ public class Hospital {
         ciudad = "Loja";
         numeroDoctores = 100;
         numeroEnfermeros = 200;
-    }
-    
-    
+    }        
     
     public void establecerNombre(String n){
         nombre = n;

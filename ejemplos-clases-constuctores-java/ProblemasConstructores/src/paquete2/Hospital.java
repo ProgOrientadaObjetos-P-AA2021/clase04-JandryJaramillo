@@ -15,6 +15,12 @@ public class Hospital {
     private int numeroDoctores;
     private int numeroEnfermeros;
     
+     public Hospital(String name, String city, int doc, int nurse){
+        nombre = name;
+        ciudad = city;
+        numeroDoctores = doc;
+        numeroEnfermeros = nurse;
+    }
     /*
         Crear un constructor que reciba como parámetros
         valores que serán asignados a los atributos.
